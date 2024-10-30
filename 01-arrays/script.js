@@ -9,7 +9,7 @@ const teachers = [
 ]; // NON MODIFICARE QUESTA VARIABILE
 
 
-//01-arrays esercizio 9
+//01-arrays esercizio 10
 
 
 // 1. Utilizzando un indice sull'array teachers, cambia il valore della
@@ -61,3 +61,5 @@ console.log (teachersString);
 
 // 10. Verifica se l'array teachers è vuoto
 // e salva il risultato nella variabile isTeachersEmpty
+const isTeachersEmpty = teachers.length === 0;
+console.log (isTeachersEmpty);
