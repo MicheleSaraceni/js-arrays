@@ -9,7 +9,7 @@ const teachers = [
 ]; // NON MODIFICARE QUESTA VARIABILE
 
 
-//01-arrays esercizio 8
+//01-arrays esercizio 9
 
 
 // 1. Utilizzando un indice sull'array teachers, cambia il valore della
@@ -52,12 +52,12 @@ console.log (isFabioPresent);
 // 8. Trova l'indice dell'insegnante 'Lewis' nell'array teachers
 // e salvalo nella variabile lewisIndex
 const lewisIndex = teachers.indexOf("Lewis");
-console.log (lewisIndex);;
+console.log (lewisIndex);
 
 // 9. Unisci tutti gli insegnanti nell'array teachers in una stringa
 // separata da virgole e salvala nella variabile teachersString
-const teachersString = null;
+const teachersString = teachers.join(",");
+console.log (teachersString);
 
 // 10. Verifica se l'array teachers è vuoto
 // e salva il risultato nella variabile isTeachersEmpty
-const isTeachersEmpty = null;
