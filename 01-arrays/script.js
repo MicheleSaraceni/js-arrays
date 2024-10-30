@@ -9,7 +9,7 @@ const teachers = [
 ]; // NON MODIFICARE QUESTA VARIABILE
 
 
-//01-arrays esercizio 4
+//01-arrays esercizio 5
 
 
 // 1. Utilizzando un indice sull'array teachers, cambia il valore della
@@ -32,6 +32,8 @@ console.log (teachers);
 console.log (firstTeacher);
 
 // 5. Aggiungi un insegnante di nome 'Vanessa' alla fine dell'array teachers
+teachers.push ("Vanessa");
+console.log (teachers);
 
 // 6. Aggiungi un insegnante di nome 'Sarah' all'inizio dell'array teachers
 
