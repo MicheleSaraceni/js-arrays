@@ -9,7 +9,7 @@ const teachers = [
 ]; // NON MODIFICARE QUESTA VARIABILE
 
 
-//01-arrays esercizio 5
+//01-arrays esercizio 6
 
 
 // 1. Utilizzando un indice sull'array teachers, cambia il valore della
@@ -36,6 +36,8 @@ teachers.push ("Vanessa");
 console.log (teachers);
 
 // 6. Aggiungi un insegnante di nome 'Sarah' all'inizio dell'array teachers
+teachers.unshift ("Sarah");
+console.log (teachers);
 
 // 7. Verifica se 'Fabio' è presente nell'array teachers
 // e salva il risultato nella variabile isFabioPresent
