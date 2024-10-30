@@ -9,7 +9,7 @@ const teachers = [
 ]; // NON MODIFICARE QUESTA VARIABILE
 
 
-//01-arrays esercizio 6
+//01-arrays esercizio 7
 
 
 // 1. Utilizzando un indice sull'array teachers, cambia il valore della
@@ -41,7 +41,8 @@ console.log (teachers);
 
 // 7. Verifica se 'Fabio' è presente nell'array teachers
 // e salva il risultato nella variabile isFabioPresent
-const isFabioPresent = null;
+const isFabioPresent = teachers.indexOf("Fabio");
+console.log (isFabioPresent);
 
 // 8. Trova l'indice dell'insegnante 'Lewis' nell'array teachers
 // e salvalo nella variabile lewisIndex
